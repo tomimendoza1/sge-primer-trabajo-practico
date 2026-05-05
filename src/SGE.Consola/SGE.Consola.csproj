@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SGE.Aplicacion\SGE.Aplicacion.csproj" />
+    <ProjectReference Include="..\SGE.Infraestructura\SGE.Infraestructura.csproj" />
+    <ProjectReference Include="..\SGE.Dominio\SGE.Dominio.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
